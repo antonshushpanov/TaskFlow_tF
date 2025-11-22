@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="80dp"
+    android:viewportWidth="60"
+    android:viewportHeight="80">
+    
+    <!-- Число "1" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,0 L15,0 L15,65 L10,65 Z"/>
+    
+    <!-- Буква "f" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,0 L35,0 L35,15 L40,15 L40,25 L35,25 L35,65 L25,65 L25,25 L20,25 L20,15 L25,15 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,20 L35,20 L35,25 L20,25 Z"/>
+</vector>
+
