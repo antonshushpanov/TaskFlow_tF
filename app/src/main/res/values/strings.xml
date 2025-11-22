@@ -1,3 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TaskFlow_tF</string>
+    <string name="app_name">TaskFlow</string>
+    <string name="home_title">Главная</string>
+    <string name="schedule_title">Расписание</string>
+    <string name="calendar_title">Календарь</string>
+    <string name="profile_title">Профиль</string>
+    <string name="welcome_default">Добро пожаловать, Name!</string>
+    <string name="add_event">Добавить</string>
+    <string name="delete_event">Удалить событие</string>
+    <string name="prev_month">Предыдущий месяц</string>
+    <string name="next_month">Следующий месяц</string>
 </resources>
