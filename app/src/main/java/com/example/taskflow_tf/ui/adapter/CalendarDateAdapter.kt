@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import android.view.View
 import com.example.taskflow_tf.databinding.ItemCalendarDateBinding
 import java.util.Calendar
 
@@ -43,10 +44,10 @@ class CalendarDateAdapter(
             // Настройка видимости и цвета
             if (!item.isCurrentMonth) {
                 binding.dateText.alpha = 0.3f
-                binding.eventIndicator.visibility = android.view.View.GONE
+                binding.eventIndicator.visibility = View.GONE
             } else {
                 binding.dateText.alpha = 1f
-                binding.eventIndicator.visibility = if (item.hasEvents) android.view.View.VISIBLE else android.view.View.GONE
+                binding.eventIndicator.visibility = if (item.hasEvents) View.VISIBLE else View.GONE
             }
             
             // Выделение выбранной даты
