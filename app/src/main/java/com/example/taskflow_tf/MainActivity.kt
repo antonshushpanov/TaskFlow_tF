@@ -7,6 +7,7 @@ import com.example.taskflow_tf.databinding.ActivityMainBinding
 import com.example.taskflow_tf.ui.home.HomeFragment
 import com.example.taskflow_tf.ui.schedule.ScheduleFragment
 import com.example.taskflow_tf.ui.calendar.CalendarFragment
+import com.example.taskflow_tf.ui.profile.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_calendar -> {
                     loadFragment(CalendarFragment())
+                    true
+                }
+                R.id.nav_profile -> {
+                    loadFragment(ProfileFragment())
                     true
                 }
                 else -> false

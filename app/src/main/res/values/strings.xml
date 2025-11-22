@@ -10,4 +10,11 @@
     <string name="delete_event">Удалить событие</string>
     <string name="prev_month">Предыдущий месяц</string>
     <string name="next_month">Следующий месяц</string>
+    <string name="avatar">Аватар</string>
+    <string name="change_photo">Изменить фото</string>
+    <string name="name_hint">Имя</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Телефон</string>
+    <string name="bio_hint">О себе</string>
+    <string name="save_profile">Сохранить</string>
 </resources>
